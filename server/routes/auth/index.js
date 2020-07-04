@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const { login, verifyToken }= require('../controllers')
+const { login, verifyToken }= require('../../controllers')
 app.get('/', (req, res) => {
     res.send('Test OK');
 });
